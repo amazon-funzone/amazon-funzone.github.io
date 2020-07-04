@@ -1,0 +1,228 @@
+body {
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    color: #111;
+}
+
+#amzinlogocontainer {
+    width: 100%;
+}
+
+#loginboxcontainer {
+    width: 100%;
+}
+
+#amzinlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 11%; */
+    height: 31px;
+    width: 103px;
+}
+
+#loginbox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 22%; */
+    width: 296px;
+    border-style: solid;
+    border-color: #DDDDDD;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px 26px!important;
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19); */
+
+    /* delete later */
+    /* height: 279px; */
+}
+
+#loginelements {
+    /* display: block; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* width: 84%; */
+    padding: 0;
+    /* margin-top: 20px; */
+}
+
+#login {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+#emailorno {
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: #111;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+#inputfield {
+    background-color: #fff;
+    height: 31px;
+    width: 95%;
+    padding: 0px 7px;
+    line-height: normal;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+    outline: 0;
+}
+
+#inputfield:focus {
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
+}
+
+#continueButton1 {
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 550;
+    font-size: 13px;
+    line-height: normal;
+    padding: 0px 7px;
+    color: #111;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    height: 31px;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+    outline: 0;
+    width: 100%;
+    /* background: #f0c14b; */
+    border-color: #a88734 #9c7e31 #846a29;
+    /* gradient testing */
+    /* background-image: linear-gradient(#ffffff, #F1C963, #F1C963, #F1C963, #F1C963, #F1C963); */
+    background-image: linear-gradient(rgba(241, 201, 99, 0.5), rgba(241, 201, 99, 0.6), rgba(241, 201, 99, 0.7), rgba(241, 201, 99, 0.8), rgba(241, 201, 99, 0.9), rgba(241, 201, 99, 1));
+}
+
+#continueButton1:hover {
+    cursor: pointer;
+    background-image: linear-gradient(rgba(241, 201, 99, 0.7), rgba(241, 201, 99, 0.8), rgba(241, 201, 99, 0.9), rgba(241, 201, 99, 1), rgba(241, 201, 99, 1), rgba(241, 201, 99, 1));
+    box-shadow: 0 1px 10px rgba(255,255,255,.5), 0 1px 10px rgba(0,0,0,.07) inset;
+}
+
+#tandcwarning {
+    font-size: 12px!important;
+    line-height: 1.5!important;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    color: #111;
+}
+
+.textlinks {
+   text-decoration: none;
+   color: #0066c0; 
+}
+
+.textlinks:hover {
+    text-decoration: underline;
+    color: #c45500;
+}
+
+#right-expand {
+    font-size: 13px;
+    color: #656565;
+    text-decoration: none;
+}
+
+#extras {
+    width: 100%;
+    /* min-width: 348px; */
+    /* width: 296px; */
+}
+
+#division-block {
+    font-size: 12px;
+    color: #767676;
+    font-weight: 400;
+    text-align: center;
+}
+
+#divblockcontainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 348px;
+    position: relative;
+    top: 3px;
+    /* text-align: center; */
+}
+
+#division-block::before {
+    content: "";
+    width: 100%;
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-top: 1px solid #e7e7e7;
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    z-index: -1;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#signupcontainer {
+    width: 348px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#signup {
+    width: 100%;
+    height: 31px;
+    background-image: linear-gradient(rgba(221, 224, 229, 0), rgba(221, 224, 229, 0.1), rgba(221, 224, 229, 0.2), rgba(221, 224, 229, 0.3), rgba(221, 224, 229, 0.5), rgba(221, 224, 229, 1));
+    border-radius: 3px;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#signup:hover {
+    cursor: pointer;
+    background-image: linear-gradient(rgba(221, 224, 229, 0), rgba(221, 224, 229, 0.5), rgba(221, 224, 229, 1), rgba(221, 224, 229, 1), rgba(221, 224, 229, 1), rgba(221, 224, 229, 1));
+}
+
+#footer {
+    background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    margin-top: 26px;
+    /* delete later */
+    height: 44px;
+}
+
+.extralinks {
+    text-align: center;
+    font-size: 11px!important;
+    line-height: 1.465!important;
+}
+
+.sign {
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    color: #111;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#keepmesignedin {
+    font-size: 13px;
+    color: #111;
+    position: relative;
+    top: -2px;
+}
