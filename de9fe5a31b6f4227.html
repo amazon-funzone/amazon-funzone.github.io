@@ -12,7 +12,14 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 table {
   border-collapse: collapse;
